@@ -1,5 +1,6 @@
 import TheMovieDbSource from '../../data/themoviedb-source';
 import { createMovieItemTemplate } from '../templates/template-creator';
+
 const NowPlaying = {
   async render() {
     return `
